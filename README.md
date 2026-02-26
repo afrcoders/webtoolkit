@@ -51,7 +51,7 @@ WebToolKit is a feature-rich SEO and web utilities platform built with Laravel. 
 
 ```bash
 # Clone the repository
-git clone https://github.com/dhtml/webtoolkit.git
+git clone https://github.com/afrcoders/webtoolkit.git
 cd webtoolkit
 
 # Install with Make
@@ -81,9 +81,9 @@ make test     # Run tests
 ### Environment
 
 ```env
-APP_NAME=KortexTools
+APP_NAME=WebToolkit
 DB_HOST=mysql
-DB_DATABASE=kortextools
+DB_DATABASE=webtoolkit
 REDIS_HOST=redis
 CACHE_DRIVER=redis
 QUEUE_CONNECTION=redis
@@ -129,7 +129,7 @@ QUEUE_CONNECTION=redis
 ## Project Structure
 
 ```
-kortextools/
+webtoolkit/
 ├── app/
 │   ├── Http/Controllers/
 │   ├── Models/
